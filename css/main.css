@@ -1,6 +1,7 @@
-body {
-    background: #eee;
-    font-family: Arial, Helvetica, sans-serif;
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 body {
@@ -31,6 +32,10 @@ img {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+}
+
+nav li {
+    list-style: none
 }
 
 nav ul {
