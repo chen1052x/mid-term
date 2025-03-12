@@ -8,8 +8,16 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+}
+
 h1, h2, p, ul, footer {
     color: white
+}
+
+h2 {
+    margin: 30px 0px 30px 0px;
 }
 
 img {
@@ -52,6 +60,7 @@ footer {
     flex-direction: column; 
     align-items: center; 
     text-align: center; 
+    gap: 20px;
 }
 
 
@@ -98,7 +107,7 @@ footer {
     height: 10px;  /* Sets the height to be more than 0, so we ca nsee the element */
     right: 0; /* Aligns the right edge of the ::after to the right edge of the span */
     bottom: 10px; /* Aligns the bottom edge of the ::after to be 10 pixels above the bottom of the span */
-    background:  red;
+    background:  rgb(100, 178, 204);
 
     z-index: -1; /* Puts the stripe behind the text */
 }
