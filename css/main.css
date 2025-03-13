@@ -6,11 +6,11 @@
 
 body {
     background-color: black;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Lato;
 }
 
 h1 {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Playfair Display;
 }
 
 h1, h2, p, ul, footer {
@@ -67,6 +67,78 @@ footer {
     text-align: center; 
     gap: 20px;
 }
+
+nav button {
+   background-color: black;
+   color: white;
+   border: none;
+   border-radius: 15px;
+}
+
+
+nav button {
+    transition: all 0.3s ease-in-out;
+}
+
+nav button:hover {
+    background-color: rgb(68, 145, 184);
+    color: white;
+    border: none;
+    border-radius: 15px;
+}
+
+
+.planet-card button { 
+    background-color: rgb(161, 78, 161);
+    color: white;
+    border: none;
+    border-radius: 15px;
+}
+
+.planet-card button {
+    transition: all 0.3s ease-in-out;
+}
+
+.planet-card button:hover {
+    background-color: rgb(68, 145, 184);
+    color: white;
+    border: none;
+    border-radius: 15px;
+}
+
+
+
+
+@media (max-width: 400px) {
+    .planets {
+        display: flex !important;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .nav {
+        display: flex !important;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 900px) {
+    .planets {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+        justify-content: center;
+    }
+
+    .nav {
+        display: flex !important;
+        flex-direction: column;
+    }
+}
+
+
+
 
 
 
