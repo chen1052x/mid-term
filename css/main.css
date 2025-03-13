@@ -87,6 +87,11 @@ nav button:hover {
     border-radius: 15px;
 }
 
+.nav-below {
+    display: flex;
+    gap: 50px; 
+}
+
 
 .planet-card button { 
     background-color: rgb(161, 78, 161);
